@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>eBay.BuyFeedV1.Client</id>
+    <version>0.0.1</version>
+    <title>eBay FeedV1API C# Client</title>
+    <owners>eBay Inc.</owners>
+    <authors>Rachana Nallur</authors>
+    <licenseUrl>https://github.com/ebay/ebay-feedv1-dotnet-sdk/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ebay/ebay-feedv1-dotnet-sdk/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>eBay FeedV1API SDK</summary>
+    <description>This SDK is intended to provide an easy way to filter for item in the latest feed file for a particular marketplace and category. It also provides a way to download the feed file.</description>
+    <releaseNotes>Initial release of FeedV1API SDK</releaseNotes>
+    <copyright>Copyright 2024-2025 eBay Inc.</copyright>
+    <readme>README.md</readme>
+    <dependencies>
+        <dependency id="eBay.OAuth.Client" version="2.0.2" />
+        <dependency id="YamlDotNet" version="13.7.1" />
+        <dependency id="RestSharp" version="110.2.0" />
+        <dependency id="log4net" version="2.0.15" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" />
+    </dependencies>
+    <tags>eBay FeedV1API SDK</tags>
+  </metadata>
+  <files>
+    <file src="..\README.md" target="" />
+    <file src="bin\Release\net6.0\*.dll" target="lib\net6.0" />
+  </files>
+</package>
