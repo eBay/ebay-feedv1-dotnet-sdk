@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>eBay.sdk</RootNamespace>
+    <PackageId>eBay.BuyFeedV1.Client</PackageId>
+    <Version>0.0.1</Version>
+    <PackageTags>eBay FeedV1API SDK</PackageTags>
+    <Description>
+      This SDK is intended to provide an easy way to filter for item in the latest feed file for a particular marketplace and category. It also provides a way to download the feed file.
+    </Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="eBay.OAuth.Client" Version="2.0.2" />
+    <PackageReference Include="YamlDotNet" Version="13.7.1" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+
+  </ItemGroup>
+</Project>

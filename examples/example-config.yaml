@@ -1,0 +1,11 @@
+﻿name: ebay-config
+
+# OAuth Access Tokens - https://developer.ebay.com/api-docs/static/oauth-tokens.html
+
+# UPDATE the values in this file, before running the tests
+
+api.ebay.com:
+    appid: <appid>>
+    certid: <certid>
+    devid: <devid>
+    redirecturi: <redirect_uri-from-developer-portal>
