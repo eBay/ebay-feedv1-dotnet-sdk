@@ -68,12 +68,12 @@ namespace eBay.Sdk.Util
         {
             // Make REST GET call once in order to get the content size
             long contentSize = GetContentRange(marketplaceId, baseURL);
-            List<string> listOfRanges = GetRangeList(rangeValue, marketplaceId, baseURL, contentSize);
+            List<string> listOfRanges = GetRangeList(rangeValue, contentSize);
             CallGetChunks(marketplaceId, baseURL, listOfRanges, outputFilename);
 
         }
 
-        private static List<string> GetRangeList(string rangeValue, string marketplaceId, string baseURL, long contentSize)
+        private static List<string> GetRangeList(string rangeValue, long contentSize)
         {
             long requestRangeLowerLimit = 0;
 
