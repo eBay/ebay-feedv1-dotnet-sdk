@@ -2,11 +2,11 @@
 <package>
   <metadata>
     <id>eBay.BuyFeedV1.Client</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <title>eBay FeedV1API C# Client</title>
     <owners>eBay Inc.</owners>
     <authors>Rachana Nallur</authors>
-    <licenseUrl>https://github.com/ebay/ebay-feedv1-dotnet-sdk/blob/master/LICENSE</licenseUrl>
+    <license type="file">LICENSE.md</license>
     <projectUrl>https://github.com/ebay/ebay-feedv1-dotnet-sdk/</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <summary>eBay FeedV1API SDK</summary>
@@ -17,7 +17,7 @@
     <dependencies>
         <dependency id="eBay.OAuth.Client" version="2.0.2" />
         <dependency id="YamlDotNet" version="13.7.1" />
-        <dependency id="RestSharp" version="110.2.0" />
+        <dependency id="RestSharp" version="112.0.0" />
         <dependency id="log4net" version="2.0.15" />
         <dependency id="Newtonsoft.Json" version="13.0.3" />
     </dependencies>
@@ -25,6 +25,7 @@
   </metadata>
   <files>
     <file src="..\README.md" target="" />
+    <file src="..\LICENSE.md" target="" />
     <file src="bin\Release\net6.0\*.dll" target="lib\net6.0" />
   </files>
 </package>
