@@ -36,7 +36,7 @@ Net 6
 ```
 # Add the eBay.BuyFeedV1.Client NuGet Package
 
-**Current Version** : 0.0.2
+**Current Version** : 0.0.3
 
 Use of this source code is governed by [Apache-2.0
 license](https://opensource.org/licenses/Apache-2.0).If you’re looking
@@ -63,7 +63,7 @@ https://www.nuget.org/packages/eBay.BuyFeedV1.Client
   **eBay.BuyFeedV1.Client** package:
 
 ``` xml
-Install-Package eBay.BuyFeedV1.Client -Version 0.0.2
+Install-Package eBay.BuyFeedV1.Client -Version 0.0.3
 ```
 
 - After the command completes, open the **.csproj** file to see the
@@ -71,7 +71,7 @@ Install-Package eBay.BuyFeedV1.Client -Version 0.0.2
 
 ``` xml
 <ItemGroup>
-   <PackageReference Include="eBay.BuyFeedV1.Client" Version="0.0.2" />
+   <PackageReference Include="eBay.BuyFeedV1.Client" Version="0.0.3" />
 </ItemGroup>
 ```
 
@@ -81,7 +81,7 @@ Install-Package eBay.BuyFeedV1.Client -Version 0.0.2
   **eBay.BuyFeedV1.Client** package:
 
 ``` xml
-dotnet add package eBay.BuyFeedV1.Client --version 0.0.2
+dotnet add package eBay.BuyFeedV1.Client --version 0.0.3
 ```
 
 - After the command completes, open the **.csproj** file to see the
@@ -89,7 +89,7 @@ dotnet add package eBay.BuyFeedV1.Client --version 0.0.2
 
 ``` xml
 <ItemGroup>
-   <PackageReference Include="eBay.BuyFeedV1.Client" Version="0.0.2" />
+   <PackageReference Include="eBay.BuyFeedV1.Client" Version="0.0.3" />
 </ItemGroup>
 ```
 
@@ -99,7 +99,7 @@ dotnet add package eBay.BuyFeedV1.Client --version 0.0.2
   **eBay.BuyFeedV1.Client** package:
 
 ``` xml
-paket add eBay.BuyFeedV1.Client --version 0.0.2
+paket add eBay.BuyFeedV1.Client --version 0.0.3
 ```
 
 - After the command completes, open the **.csproj** file to see the
@@ -107,7 +107,7 @@ paket add eBay.BuyFeedV1.Client --version 0.0.2
 
 ``` xml
 <ItemGroup>
-   <PackageReference Include="eBay.BuyFeedV1.Client" Version="0.0.1" />
+   <PackageReference Include="eBay.BuyFeedV1.Client" Version="0.0.3" />
 </ItemGroup>
 ```
 ## Create config file
