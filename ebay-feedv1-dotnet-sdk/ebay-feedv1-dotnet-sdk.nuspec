@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>eBay.BuyFeedV1.Client</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <title>eBay FeedV1API C# Client</title>
     <owners>eBay Inc.</owners>
     <authors>Rachana Nallur</authors>
@@ -15,7 +15,7 @@
     <copyright>Copyright 2024-2025 eBay Inc.</copyright>
     <readme>README.md</readme>
     <dependencies>
-        <dependency id="eBay.OAuth.Client" version="2.0.2" />
+        <dependency id="eBay.OAuth.Client" version="2.0.3" />
         <dependency id="YamlDotNet" version="13.7.1" />
         <dependency id="RestSharp" version="112.0.0" />
         <dependency id="log4net" version="2.0.15" />
